@@ -4,7 +4,7 @@
 
 - Сайт: https://danielretfordit.github.io/sahara-brand-guide/
 - PDF: [гайдлайн](SAHARA-brand-guidelines.pdf)
-- Полный комплект: [ZIP v1.1](SAHARA-final-brand-kit-v1.1.zip)
+- Полный комплект: [ZIP v1.1](https://github.com/danielretfordit/sahara-brand-guide/releases/download/brand-kit-v1.1/SAHARA-final-brand-kit-v1.1.zip)
 
 Каталог позволяет выбрать несколько макетов, форматы и скачать собственный ZIP. Все файлы размещены здесь; сервер и внешние CDN не требуются. JSZip распространяется с лицензией в `vendor/`.
 
