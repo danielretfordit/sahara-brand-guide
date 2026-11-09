@@ -1,0 +1,640 @@
+%!PS-Adobe-3.0 EPSF-3.0
+%%Creator: poppler pdftops version: 26.05.0 (http://poppler.freedesktop.org). PDF Creator: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/5
+%%LanguageLevel: 2
+%%DocumentSuppliedResources: (atend)
+%%BoundingBox: 0 0 510 510
+%%HiResBoundingBox: 0 0 510 510
+%%DocumentSuppliedResources: (atend)
+%%EndComments
+%%BeginProlog
+%%BeginResource: procset xpdf 3.00 0
+%%Copyright: Copyright 1996-2011, 2022 Glyph & Cog, LLC
+/xpdf 75 dict def xpdf begin
+% PDF special state
+/pdfDictSize 15 def
+/pdfSetup {
+  /setpagedevice where {
+    pop
+    currentpagedevice /Policies known {
+      currentpagedevice /Policies get /PageSize known
+    } {
+      false
+    } ifelse
+    {
+      1 dict begin
+        { /Duplex true def } if
+      currentdict end
+      setpagedevice
+    } {
+      2 dict begin
+        /Policies 1 dict dup begin /PageSize 6 def end def
+        { /Duplex true def } if
+      currentdict end
+      setpagedevice
+    } ifelse
+  } {
+    pop
+  } ifelse
+} def
+/pdfSetupPaper {
+  % Change paper size, but only if different from previous paper size otherwise
+  % duplex fails. PLRM specifies a tolerance of 5 pts when matching paper size
+  % so we use the same when checking if the size changes.
+  /setpagedevice where {
+    pop currentpagedevice
+    /PageSize known {
+      2 copy
+      currentpagedevice /PageSize get aload pop
+      exch 4 1 roll
+      sub abs 5 gt
+      3 1 roll
+      sub abs 5 gt
+      or
+    } {
+      true
+    } ifelse
+    {
+      2 array astore
+      2 dict begin
+        /PageSize exch def
+        /ImagingBBox null def
+      currentdict end
+      setpagedevice
+    } {
+      pop pop
+    } ifelse
+  } {
+    pop
+  } ifelse
+} def
+/pdfStartPage {
+  pdfDictSize dict begin
+  /pdfFillCS [] def
+  /pdfFillXform {} def
+  /pdfStrokeCS [] def
+  /pdfStrokeXform {} def
+  /pdfFill [0] def
+  /pdfStroke [0] def
+  /pdfFillOP false def
+  /pdfStrokeOP false def
+  /pdfLastFill false def
+  /pdfLastStroke false def
+  /pdfTextMat [1 0 0 1 0 0] def
+  /pdfFontSize 0 def
+  /pdfCharSpacing 0 def
+  /pdfTextRender 0 def
+  /pdfPatternCS false def
+  /pdfTextRise 0 def
+  /pdfWordSpacing 0 def
+  /pdfHorizScaling 1 def
+  /pdfTextClipPath [] def
+} def
+/pdfEndPage { end } def
+% PDF color state
+/cs { /pdfFillXform exch def dup /pdfFillCS exch def
+      setcolorspace } def
+/CS { /pdfStrokeXform exch def dup /pdfStrokeCS exch def
+      setcolorspace } def
+/sc { pdfLastFill not { pdfFillCS setcolorspace } if
+      dup /pdfFill exch def aload pop pdfFillXform setcolor
+     /pdfLastFill true def /pdfLastStroke false def } def
+/SC { pdfLastStroke not { pdfStrokeCS setcolorspace } if
+      dup /pdfStroke exch def aload pop pdfStrokeXform setcolor
+     /pdfLastStroke true def /pdfLastFill false def } def
+/op { /pdfFillOP exch def
+      pdfLastFill { pdfFillOP setoverprint } if } def
+/OP { /pdfStrokeOP exch def
+      pdfLastStroke { pdfStrokeOP setoverprint } if } def
+/fCol {
+  pdfLastFill not {
+    pdfFillCS setcolorspace
+    pdfFill aload pop pdfFillXform setcolor
+    pdfFillOP setoverprint
+    /pdfLastFill true def /pdfLastStroke false def
+  } if
+} def
+/sCol {
+  pdfLastStroke not {
+    pdfStrokeCS setcolorspace
+    pdfStroke aload pop pdfStrokeXform setcolor
+    pdfStrokeOP setoverprint
+    /pdfLastStroke true def /pdfLastFill false def
+  } if
+} def
+% build a font
+/pdfMakeFont {
+  4 3 roll findfont
+  4 2 roll matrix scale makefont
+  dup length dict begin
+    { 1 index /FID ne { def } { pop pop } ifelse } forall
+    /Encoding exch def
+    currentdict
+  end
+  definefont pop
+} def
+/pdfMakeFont16 {
+  exch findfont
+  dup length dict begin
+    { 1 index /FID ne { def } { pop pop } ifelse } forall
+    /WMode exch def
+    currentdict
+  end
+  definefont pop
+} def
+% graphics state operators
+/q { gsave pdfDictSize dict begin } def
+/Q {
+  end grestore
+  /pdfLastFill where {
+    pop
+    pdfLastFill {
+      pdfFillOP setoverprint
+    } {
+      pdfStrokeOP setoverprint
+    } ifelse
+  } if
+} def
+/cm { concat } def
+/d { setdash } def
+/i { setflat } def
+/j { setlinejoin } def
+/J { setlinecap } def
+/M { setmiterlimit } def
+/w { setlinewidth } def
+% path segment operators
+/m { moveto } def
+/l { lineto } def
+/c { curveto } def
+/re { 4 2 roll moveto 1 index 0 rlineto 0 exch rlineto
+      neg 0 rlineto closepath } def
+/h { closepath } def
+% path painting operators
+/S { sCol stroke } def
+/Sf { fCol stroke } def
+/f { fCol fill } def
+/f* { fCol eofill } def
+% clipping operators
+/W { clip newpath } def
+/W* { eoclip newpath } def
+/Ws { strokepath clip newpath } def
+% text state operators
+/Tc { /pdfCharSpacing exch def } def
+/Tf { dup /pdfFontSize exch def
+      dup pdfHorizScaling mul exch matrix scale
+      pdfTextMat matrix concatmatrix dup 4 0 put dup 5 0 put
+      exch findfont exch makefont setfont } def
+/Tr { /pdfTextRender exch def } def
+/Tp { /pdfPatternCS exch def } def
+/Ts { /pdfTextRise exch def } def
+/Tw { /pdfWordSpacing exch def } def
+/Tz { /pdfHorizScaling exch def } def
+% text positioning operators
+/Td { pdfTextMat transform moveto } def
+/Tm { /pdfTextMat exch def } def
+% text string operators
+/xyshow where {
+  pop
+  /xyshow2 {
+    dup length array
+    0 2 2 index length 1 sub {
+      2 index 1 index 2 copy get 3 1 roll 1 add get
+      pdfTextMat dtransform
+      4 2 roll 2 copy 6 5 roll put 1 add 3 1 roll dup 4 2 roll put
+    } for
+    exch pop
+    xyshow
+  } def
+}{
+  /xyshow2 {
+    currentfont /FontType get 0 eq {
+      0 2 3 index length 1 sub {
+        currentpoint 4 index 3 index 2 getinterval show moveto
+        2 copy get 2 index 3 2 roll 1 add get
+        pdfTextMat dtransform rmoveto
+      } for
+    } {
+      0 1 3 index length 1 sub {
+        currentpoint 4 index 3 index 1 getinterval show moveto
+        2 copy 2 mul get 2 index 3 2 roll 2 mul 1 add get
+        pdfTextMat dtransform rmoveto
+      } for
+    } ifelse
+    pop pop
+  } def
+} ifelse
+/cshow where {
+  pop
+  /xycp {
+    0 3 2 roll
+    {
+      pop pop currentpoint 3 2 roll
+      1 string dup 0 4 3 roll put false charpath moveto
+      2 copy get 2 index 2 index 1 add get
+      pdfTextMat dtransform rmoveto
+      2 add
+    } exch cshow
+    pop pop
+  } def
+}{
+  /xycp {
+    currentfont /FontType get 0 eq {
+      0 2 3 index length 1 sub {
+        currentpoint 4 index 3 index 2 getinterval false charpath moveto
+        2 copy get 2 index 3 2 roll 1 add get
+        pdfTextMat dtransform rmoveto
+      } for
+    } {
+      0 1 3 index length 1 sub {
+        currentpoint 4 index 3 index 1 getinterval false charpath moveto
+        2 copy 2 mul get 2 index 3 2 roll 2 mul 1 add get
+        pdfTextMat dtransform rmoveto
+      } for
+    } ifelse
+    pop pop
+  } def
+} ifelse
+/Tj {
+  fCol
+  0 pdfTextRise pdfTextMat dtransform rmoveto
+  currentpoint 4 2 roll
+  pdfTextRender 1 and 0 eq {
+    2 copy xyshow2
+  } if
+  pdfTextRender 3 and dup 1 eq exch 2 eq or {
+    3 index 3 index moveto
+    2 copy
+    currentfont /FontType get 3 eq { fCol } { sCol } ifelse
+    xycp currentpoint stroke moveto
+  } if
+  pdfTextRender 4 and 0 ne {
+    4 2 roll moveto xycp
+    /pdfTextClipPath [ pdfTextClipPath aload pop
+      {/moveto cvx}
+      {/lineto cvx}
+      {/curveto cvx}
+      {/closepath cvx}
+    pathforall ] def
+    currentpoint newpath moveto
+  } {
+    pop pop pop pop
+  } ifelse
+  0 pdfTextRise neg pdfTextMat dtransform rmoveto
+} def
+/TJm { 0.001 mul pdfFontSize mul pdfHorizScaling mul neg 0
+       pdfTextMat dtransform rmoveto } def
+/TJmV { 0.001 mul pdfFontSize mul neg 0 exch
+        pdfTextMat dtransform rmoveto } def
+/Tclip { pdfTextClipPath cvx exec clip newpath
+         /pdfTextClipPath [] def } def
+/Tclip* { pdfTextClipPath cvx exec eoclip newpath
+         /pdfTextClipPath [] def } def
+% Level 2/3 image operators
+/pdfImBuf 100 string def
+/pdfImStr {
+  2 copy exch length lt {
+    2 copy get exch 1 add exch
+  } {
+    ()
+  } ifelse
+} def
+/skipEOD {
+  { currentfile pdfImBuf readline
+    not { pop exit } if
+    (%-EOD-) eq { exit } if } loop
+} def
+/pdfIm { image skipEOD } def
+/pdfImM { fCol imagemask skipEOD } def
+/pr { 2 index 2 index 3 2 roll putinterval 4 add } def
+/pdfImClip {
+  gsave
+  0 2 4 index length 1 sub {
+    dup 4 index exch 2 copy
+    get 5 index div put
+    1 add 3 index exch 2 copy
+    get 3 index div put
+  } for
+  pop pop rectclip
+} def
+/pdfImClipEnd { grestore } def
+% shading operators
+/colordelta {
+  false 0 1 3 index length 1 sub {
+    dup 4 index exch get 3 index 3 2 roll get sub abs 0.004 gt {
+      pop true
+    } if
+  } for
+  exch pop exch pop
+} def
+/funcCol { func n array astore } def
+/funcSH {
+  dup 0 eq {
+    true
+  } {
+    dup 6 eq {
+      false
+    } {
+      4 index 4 index funcCol dup
+      6 index 4 index funcCol dup
+      3 1 roll colordelta 3 1 roll
+      5 index 5 index funcCol dup
+      3 1 roll colordelta 3 1 roll
+      6 index 8 index funcCol dup
+      3 1 roll colordelta 3 1 roll
+      colordelta or or or
+    } ifelse
+  } ifelse
+  {
+    1 add
+    4 index 3 index add 0.5 mul exch 4 index 3 index add 0.5 mul exch
+    6 index 6 index 4 index 4 index 4 index funcSH
+    2 index 6 index 6 index 4 index 4 index funcSH
+    6 index 2 index 4 index 6 index 4 index funcSH
+    5 3 roll 3 2 roll funcSH pop pop
+  } {
+    pop 3 index 2 index add 0.5 mul 3 index  2 index add 0.5 mul
+    funcCol sc
+    dup 4 index exch mat transform m
+    3 index 3 index mat transform l
+    1 index 3 index mat transform l
+    mat transform l pop pop h f*
+  } ifelse
+} def
+/axialCol {
+  dup 0 lt {
+    pop t0
+  } {
+    dup 1 gt {
+      pop t1
+    } {
+      dt mul t0 add
+    } ifelse
+  } ifelse
+  func n array astore
+} def
+/axialSH {
+  dup 0 eq {
+    true
+  } {
+    dup 8 eq {
+      false
+    } {
+      2 index axialCol 2 index axialCol colordelta
+    } ifelse
+  } ifelse
+  {
+    1 add 3 1 roll 2 copy add 0.5 mul
+    dup 4 3 roll exch 4 index axialSH
+    exch 3 2 roll axialSH
+  } {
+    pop 2 copy add 0.5 mul
+    axialCol sc
+    exch dup dx mul x0 add exch dy mul y0 add
+    3 2 roll dup dx mul x0 add exch dy mul y0 add
+    dx abs dy abs ge {
+      2 copy yMin sub dy mul dx div add yMin m
+      yMax sub dy mul dx div add yMax l
+      2 copy yMax sub dy mul dx div add yMax l
+      yMin sub dy mul dx div add yMin l
+      h f*
+    } {
+      exch 2 copy xMin sub dx mul dy div add xMin exch m
+      xMax sub dx mul dy div add xMax exch l
+      exch 2 copy xMax sub dx mul dy div add xMax exch l
+      xMin sub dx mul dy div add xMin exch l
+      h f*
+    } ifelse
+  } ifelse
+} def
+/radialCol {
+  dup t0 lt {
+    pop t0
+  } {
+    dup t1 gt {
+      pop t1
+    } if
+  } ifelse
+  func n array astore
+} def
+/radialSH {
+  dup 0 eq {
+    true
+  } {
+    dup 8 eq {
+      false
+    } {
+      2 index dt mul t0 add radialCol
+      2 index dt mul t0 add radialCol colordelta
+    } ifelse
+  } ifelse
+  {
+    1 add 3 1 roll 2 copy add 0.5 mul
+    dup 4 3 roll exch 4 index radialSH
+    exch 3 2 roll radialSH
+  } {
+    pop 2 copy add 0.5 mul dt mul t0 add
+    radialCol sc
+    encl {
+      exch dup dx mul x0 add exch dup dy mul y0 add exch dr mul r0 add
+      0 360 arc h
+      dup dx mul x0 add exch dup dy mul y0 add exch dr mul r0 add
+      360 0 arcn h f
+    } {
+      2 copy
+      dup dx mul x0 add exch dup dy mul y0 add exch dr mul r0 add
+      a1 a2 arcn
+      dup dx mul x0 add exch dup dy mul y0 add exch dr mul r0 add
+      a2 a1 arcn h
+      dup dx mul x0 add exch dup dy mul y0 add exch dr mul r0 add
+      a1 a2 arc
+      dup dx mul x0 add exch dup dy mul y0 add exch dr mul r0 add
+      a2 a1 arc h f
+    } ifelse
+  } ifelse
+} def
+end
+%%EndResource
+%%EndProlog
+%%BeginSetup
+xpdf begin
+%%EndSetup
+pdfStartPage
+%%EndPageSetup
+[] 0 d
+1 i
+0 j
+0 J
+10 M
+1 w
+/DeviceGray {} cs
+[0] sc
+/DeviceGray {} CS
+[0] SC
+false op
+false OP
+{} settransfer
+0 0 510 510 re
+W
+q
+[0.24 0 0 -0.24 0 510] cm
+q
+0 0 2125 2125 re
+W*
+q
+[11.810981 0 0 11.810981 0 0] cm
+/DeviceRGB {} CS
+[0 0 0] SC
+/DeviceRGB {} cs
+[0 0 0] sc
+6.5 w
+1 J
+1 j
+4 M
+6.5 w
+1 J
+1 j
+4 M
+20 126 m
+53 86 70 90 99 115 c
+125 137 145 133 163 114 c
+S
+141 58 m
+141 58.392776 140.990372 58.785316 140.9711 59.177624 c
+140.951828 59.569927 140.922928 59.961521 140.88443 60.352409 c
+140.845932 60.743298 140.797867 61.133003 140.740234 61.521526 c
+140.682587 61.910057 140.615448 62.296936 140.538834 62.682163 c
+140.462204 63.067394 140.376175 63.450512 140.280746 63.83152 c
+140.185303 64.212524 140.080582 64.590965 139.966553 64.966827 c
+139.852539 65.34269 139.72937 65.71553 139.597031 66.08535 c
+139.464706 66.45517 139.323395 66.821518 139.17308 67.184395 c
+139.022766 67.547272 138.863632 67.90625 138.695709 68.261314 c
+138.527786 68.616379 138.351242 68.967117 138.166092 69.313515 c
+137.980927 69.659912 137.787384 70.001556 137.585464 70.338455 c
+137.38353 70.675346 137.173462 71.007088 136.955246 71.333679 c
+136.73703 71.660263 136.510925 71.981293 136.276962 72.296776 c
+136.042984 72.612259 135.801407 72.921814 135.552231 73.225441 c
+135.303055 73.529053 135.046585 73.826378 134.782806 74.117409 c
+134.519028 74.408432 134.248276 74.692818 133.970551 74.970558 c
+133.69281 75.248291 133.408432 75.519051 133.117401 75.782822 c
+132.82637 76.046593 132.529053 76.30307 132.225433 76.552254 c
+131.921814 76.801422 131.612259 77.042999 131.296783 77.276978 c
+130.981293 77.510948 130.660263 77.737045 130.333679 77.955254 c
+130.007095 78.173462 129.675369 78.383537 129.33847 78.585472 c
+129.001572 78.787399 128.659912 78.980934 128.313522 79.166092 c
+127.967117 79.35125 127.616379 79.527794 127.261314 79.695732 c
+126.90625 79.863663 126.547272 80.022789 126.184387 80.173096 c
+125.82151 80.323402 125.45517 80.464722 125.08535 80.597046 c
+124.71553 80.72937 124.342697 80.852539 123.966835 80.96656 c
+123.590973 81.080582 123.212532 81.18531 122.83152 81.280746 c
+122.450516 81.376183 122.067398 81.462212 121.682167 81.538834 c
+121.296936 81.615456 120.910065 81.682587 120.521538 81.740227 c
+120.133011 81.797867 119.743309 81.845932 119.352417 81.88443 c
+118.961533 81.922928 118.569939 81.951813 118.177635 81.971092 c
+117.785324 81.990364 117.392784 82 117 82 c
+116.607224 82 116.214684 81.990364 115.82238 81.971092 c
+115.430069 81.951813 115.038475 81.922928 114.647591 81.88443 c
+114.256699 81.845932 113.866997 81.797867 113.47847 81.740227 c
+113.089943 81.682587 112.703056 81.615456 112.317825 81.538834 c
+111.932594 81.462212 111.549469 81.376175 111.168465 81.280739 c
+110.78746 81.185303 110.409019 81.080582 110.033157 80.96656 c
+109.657288 80.852539 109.284447 80.72937 108.914627 80.597046 c
+108.544807 80.464722 108.178459 80.323402 107.815582 80.173096 c
+107.452705 80.022789 107.093735 79.863663 106.738663 79.695732 c
+106.383598 79.527794 106.032867 79.35125 105.68647 79.166092 c
+105.340073 78.980934 104.998421 78.787392 104.661522 78.585464 c
+104.324623 78.383537 103.992882 78.173462 103.666298 77.955254 c
+103.339714 77.737045 103.018684 77.510948 102.703209 77.27697 c
+102.387726 77.042999 102.078171 76.801422 101.774551 76.552246 c
+101.470932 76.303062 101.173607 76.046593 100.882568 75.782822 c
+100.591545 75.519051 100.307159 75.248291 100.029427 74.970558 c
+99.751694 74.692818 99.480934 74.408432 99.217163 74.117409 c
+98.953392 73.826378 98.696922 73.529053 98.447739 73.225441 c
+98.198563 72.921814 97.956985 72.612259 97.723007 72.296776 c
+97.489029 71.981293 97.262932 71.660263 97.044716 71.333679 c
+96.826508 71.007088 96.616432 70.675346 96.414497 70.338455 c
+96.21257 70.001556 96.019035 69.659912 95.833878 69.313515 c
+95.64872 68.967117 95.472176 68.616379 95.304237 68.261314 c
+95.136299 67.90625 94.97718 67.547272 94.826874 67.184395 c
+94.676567 66.821518 94.535248 66.45517 94.402931 66.08535 c
+94.270607 65.71553 94.147438 65.34269 94.033424 64.966827 c
+93.919403 64.590965 93.814682 64.212524 93.719246 63.831516 c
+93.62381 63.450512 93.537773 63.067394 93.461143 62.682163 c
+93.384514 62.296936 93.317383 61.910057 93.259758 61.52153 c
+93.202133 61.133003 93.154068 60.743298 93.11557 60.352413 c
+93.077072 59.961525 93.048187 59.569927 93.028908 59.177624 c
+93.009636 58.785316 93 58.392776 93 58 c
+93 57.607224 93.009636 57.214684 93.028908 56.822376 c
+93.048187 56.430069 93.07708 56.038475 93.115578 55.647591 c
+93.154068 55.256702 93.202133 54.866993 93.259766 54.478462 c
+93.31739 54.089935 93.384514 53.703056 93.461143 53.317822 c
+93.537773 52.93259 93.623802 52.549473 93.719238 52.168465 c
+93.814674 51.787464 93.919403 51.409031 94.033424 51.033165 c
+94.147438 50.657299 94.270607 50.284458 94.402931 49.914635 c
+94.535248 49.544819 94.676567 49.178471 94.826874 48.81559 c
+94.97718 48.452713 95.136299 48.093742 95.304237 47.738674 c
+95.472176 47.383606 95.64872 47.032875 95.833878 46.686474 c
+96.019035 46.340073 96.212578 45.998425 96.414505 45.661526 c
+96.616432 45.324627 96.826508 44.992886 97.044716 44.666306 c
+97.262932 44.339722 97.489029 44.018688 97.723007 43.703209 c
+97.956985 43.387726 98.198563 43.078175 98.447739 42.774555 c
+98.696922 42.470932 98.953392 42.173607 99.217163 41.88258 c
+99.480934 41.591549 99.751694 41.307167 100.029427 41.02943 c
+100.307159 40.751698 100.591545 40.480942 100.882576 40.217167 c
+101.173607 39.953396 101.470932 39.696922 101.774551 39.447746 c
+102.078171 39.19857 102.387718 38.956993 102.703201 38.723011 c
+103.018684 38.489037 103.339714 38.262939 103.666298 38.044724 c
+103.992882 37.826511 104.324623 37.61644 104.661522 37.414509 c
+104.998421 37.212578 105.340073 37.019039 105.68647 36.833885 c
+106.032867 36.648731 106.383606 36.472183 106.73867 36.304249 c
+107.093735 36.136318 107.452705 35.977196 107.815582 35.826885 c
+108.178459 35.676575 108.544807 35.535259 108.914619 35.402939 c
+109.284439 35.270618 109.657288 35.147449 110.033157 35.033432 c
+110.409019 34.919415 110.78746 34.814686 111.168465 34.71925 c
+111.549469 34.62381 111.932594 34.537777 112.317825 34.461151 c
+112.703056 34.384521 113.089935 34.31739 113.478462 34.259762 c
+113.866989 34.202129 114.256699 34.154064 114.647591 34.11557 c
+115.038475 34.077068 115.430069 34.048183 115.82238 34.028908 c
+116.214684 34.009636 116.607224 34 117 34 c
+117.392784 34 117.785324 34.009636 118.177635 34.028908 c
+118.569939 34.048183 118.961533 34.077068 119.352417 34.11557 c
+119.743309 34.154064 120.133011 34.202129 120.521538 34.259762 c
+120.910065 34.31739 121.296936 34.384521 121.682167 34.461151 c
+122.067398 34.537777 122.450516 34.62381 122.83152 34.71925 c
+123.212532 34.814686 123.590973 34.919415 123.966835 35.033432 c
+124.342697 35.147449 124.71553 35.270618 125.08535 35.402939 c
+125.45517 35.535259 125.82151 35.676575 126.184387 35.826885 c
+126.547272 35.977196 126.90625 36.136318 127.261322 36.304249 c
+127.616386 36.472183 127.967117 36.648731 128.313522 36.833885 c
+128.659912 37.019039 129.001572 37.212578 129.33847 37.414509 c
+129.675369 37.61644 130.007095 37.826511 130.333679 38.044724 c
+130.660263 38.262939 130.981293 38.489037 131.296783 38.723011 c
+131.612259 38.956993 131.921814 39.19857 132.225433 39.447746 c
+132.529053 39.696922 132.82637 39.953396 133.117401 40.217167 c
+133.408432 40.480942 133.69281 40.751698 133.970551 41.02943 c
+134.248276 41.307167 134.519043 41.591549 134.782822 41.882576 c
+135.0466 42.173607 135.30307 42.470932 135.552246 42.774555 c
+135.801422 43.078175 136.042999 43.387726 136.276962 43.703209 c
+136.510925 44.018688 136.73703 44.339722 136.955246 44.666306 c
+137.173462 44.992886 137.38353 45.324627 137.585449 45.66153 c
+137.787384 45.998425 137.980927 46.340073 138.166092 46.686474 c
+138.351242 47.032875 138.527786 47.383606 138.695709 47.738674 c
+138.863632 48.093742 139.022766 48.452713 139.17308 48.81559 c
+139.323395 49.178471 139.464706 49.544819 139.597031 49.914635 c
+139.72937 50.284454 139.852539 50.657295 139.966553 51.033161 c
+140.080582 51.409027 140.185303 51.78746 140.280746 52.168468 c
+140.376175 52.549473 140.462204 52.93259 140.538834 53.317825 c
+140.615448 53.703056 140.682587 54.089935 140.740219 54.478466 c
+140.797852 54.866993 140.845932 55.256699 140.88443 55.647587 c
+140.922928 56.038475 140.951828 56.430069 140.9711 56.822376 c
+140.990372 57.214684 141 57.607224 141 58 c
+h
+S
+Q
+Q
+Q
+showpage
+%%PageTrailer
+pdfEndPage
+%%Trailer
+end
+%%DocumentSuppliedResources:
+%%EOF
